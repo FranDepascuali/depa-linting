@@ -15,6 +15,10 @@ module.exports = {
       "error",
       { functions: false, classes: false },
     ],
+    "@typescript-eslint/": [
+      "error",
+      { allowProtectedClassPropertyAccess: true },
+    ],
     "react/jsx-filename-extension": [1, { extensions: [".ts", ".tsx"] }],
   },
 }
