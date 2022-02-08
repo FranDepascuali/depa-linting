@@ -1,13 +1,13 @@
 [![npm version](https://badge.fury.io/js/%40viclafouch%2Feslint-config-viclafouch.svg)](https://badge.fury.io/js/%40viclafouch%2Feslint-config-viclafouch)
 
-# Eslint / Prettier Setup of @viclafouch 📦
+# Eslint / Prettier Setup of @depa 📦
 
 These are my ESLint and Prettier settings for a React.js project ⚡️
 
 
 # Table of Contents
 
-- [Eslint / Prettier Setup of @viclafouch 📦](#eslint--prettier-setup-of-viclafouch-)
+- [Eslint / Prettier Setup of @depa 📦](#eslint--prettier-setup-of-depa-)
 - [Table of Contents](#table-of-contents)
   - [What it does](#what-it-does)
   - [Local / Per Project Install](#local--per-project-install)
@@ -31,7 +31,7 @@ These are my ESLint and Prettier settings for a React.js project ⚡️
 2. Then we need to install everything needed by the config:
 
 ```
-npx install-peerdeps --dev @viclafouch/eslint-config-viclafouch
+npx install-peerdeps --dev @depa/eslint-config-depa
 ```
 
 3. You can see in your package.json there are now a big list of devDependencies.
@@ -43,7 +43,7 @@ npx install-peerdeps --dev @viclafouch/eslint-config-viclafouch
 ```json
 {
   "extends": [
-    "@viclafouch/eslint-config-viclafouch"
+    "@depa/eslint-config-depa"
   ]
 }
 ```
@@ -73,7 +73,7 @@ You can add two scripts to your package.json to lint and/or fix your code:
 ```json
 {
   "extends": [
-    "@viclafouch/eslint-config-viclafouch/typescript"
+    "@depa/eslint-config-depa/typescript"
   ]
 }
 ```
@@ -118,5 +118,5 @@ Once you have done. You probably want your editor to lint and fix for you.
 ## With Create React App
 
 1. You gotta eject first `npm run eject` or `yarn eject`
-1. Run `npx install-peerdeps --dev @viclafouch/eslint-config-viclafouch`
-1. Crack open your `package.json` and replace `"extends": "react-app"` with `"extends": ["@viclafouch/eslint-config-viclafouch"]`
+1. Run `npx install-peerdeps --dev @depa/eslint-config-depa`
+1. Crack open your `package.json` and replace `"extends": "react-app"` with `"extends": ["@depa/eslint-config-depa"]`

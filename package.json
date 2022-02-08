@@ -1,5 +1,5 @@
 {
-  "name": "@viclafouch/eslint-config-viclafouch",
+  "name": "@depa/eslint-config-depa",
   "version": "3.3.4",
   "description": "ESLint and Prettier Config from Victor de la Fouchardiere",
   "main": "index.js",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viclafouch/eslint-config-viclafouch.git"
+    "url": "git+https://github.com/FranDepascuali//eslint-config-depa.git"
   },
   "standard-version": {
     "skip": {
@@ -22,7 +22,7 @@
   },
   "author": "Victor de la Fouchardiere <victor.delafouchardiere@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/viclafouch/eslint-config-viclafouch#readme",
+  "homepage": "https://github.com/FranDepascuali//eslint-config-depa#readme",
   "peerDependencies": {
     "@babel/core": "7.16.12",
     "@babel/eslint-parser": "7.16.5",
