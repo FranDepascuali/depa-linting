@@ -14,7 +14,4 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: {
-    "no-use-before-define": ["error", { functions: false, classes: false }],
-  },
 }
