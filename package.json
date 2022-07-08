@@ -1,6 +1,6 @@
 {
   "name": "@depa/eslint-config-depa",
-  "version": "3.3.9",
+  "version": "3.3.10",
   "description": "ESLint and Prettier Config from Victor de la Fouchardiere",
   "main": "index.js",
   "keywords": [
