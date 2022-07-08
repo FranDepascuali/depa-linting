@@ -15,7 +15,7 @@ module.exports = {
       "error",
       { functions: false, classes: false },
     ],
-    "@typescript-eslint/": [
+    "@typescript-eslint/dot-notation": [
       "error",
       { allowProtectedClassPropertyAccess: true },
     ],
