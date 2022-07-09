@@ -9,6 +9,9 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["react", "@typescript-eslint", "simple-import-sort"],
+  parserOptions: {
+    "project": ["tsconfig.json"]
+  },
   rules: {
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-use-before-define": [
